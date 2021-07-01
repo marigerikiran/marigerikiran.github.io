@@ -409,7 +409,7 @@ ul.dropdown ul li a:hover{
 .prev, .next{
   cursor: pointer;
     position: absolute;
-    top: 70%;
+    top: 50%;
     width: auto;
     padding: 16px;
     margin-top: -22px;
