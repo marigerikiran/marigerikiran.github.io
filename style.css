@@ -193,7 +193,7 @@ table{
   
     line-height: 2;
     padding: 0px auto;
-    width: 80%;
+    width: 100%;
    box-shadow: 10px 10px 5px 1px grey; 
    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 
@@ -509,9 +509,11 @@ ul.dropdown ul li a:hover{
 } /* Blue */
 
 .sen{
-  padding: 50px 20px 50px 20px;
+  /*padding: 50px 20px 50px 20px;
   text-align: left;
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 100px; */
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 marquee p{
   border-bottom: 1px solid grey;
@@ -524,10 +526,12 @@ marquee p{
 .cardz{
   
     width: 100%;
-   box-shadow: 10px 10px 5px 1px grey;    
+  /*  box-shadow: 10px 10px 5px 1px grey;    */
        margin: 5px 0px 0px -40px;
   
- /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-bottom: 2px solid grey;
+         border-right: 2px solid grey;
 
 }
 .card-textz{
@@ -535,3 +539,6 @@ marquee p{
 
 
 }
+.card-textz p{
+  padding: 5px 10px 0px 10px; 
+} 
