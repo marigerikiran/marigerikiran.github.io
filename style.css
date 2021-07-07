@@ -218,7 +218,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 
 .card-title{
     /* background: linear-gradient(to right, #1eb089 0%, #7c49ab 100%, #7bd9e8 100%) repeat scroll 0 0; */
-    background: mediumpurple;
+    background: #5d81a4;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
     padding: 8px;
@@ -228,9 +228,18 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     font-size: 20px;
     color: white;
 }
+.card-titlez a{
+  color: white;
+}
+
+
+a{
+  color: black;
+}
+
 .card-titlez{
 
-    background: black;
+    background: #5d81a4;
     height: 70px;
         border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -501,7 +510,7 @@ ul.dropdown ul li a:hover{
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #303030;
+  background-color: #5d81a4;
  /* background-image: url(https://ksp.gov.in/frontend/opt1/images/center_logo/kar_main_logo.png); */
   background-size: 150px;
   width: 100%;
