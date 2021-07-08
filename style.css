@@ -189,104 +189,28 @@ table{
     background-color: black;
   }
 
-.card{
-  
-    line-height: 2;
-    padding: 0px auto;
-    width: 100%;
-   box-shadow: 10px 10px 5px 1px grey; 
-   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-
-  cursor: pointer;
-   
-  
- /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-
-}
-.card:hover{
-  transform: scale(1.05);
-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
-.card-text{
-    height: 300px;
-
-}
-.card-text img{
-  width: 30px;
-    border-radius: 50%;
-}
-
-.card-title{
-    /* background: linear-gradient(to right, #1eb089 0%, #7c49ab 100%, #7bd9e8 100%) repeat scroll 0 0; */
-    background: #5d81a4;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    padding: 8px;
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: white;
-}
-.card-titlez a{
-  color: white;
-}
-
-
-a{
-  color: black;
-}
-
-.card-titlez{
-
-    background: #5d81a4;
-    height: 70px;
-        border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-    padding: 8px;
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: white;
-}
 
 ul{
     list-style-type: none;
 }
 
-.card ul li a{
-    line-height: 2.3;
-    font-size: 16px;
-    list-style: none;
-    width: 100%;
-    
-    margin-bottom: 5px;
-    padding: 0px 20px;
 
-}
-.card ul li a:hover{
-  /*
-    background: #5d81a4;
-    */
-}
 .linn{
     padding-top: 30px;
     color: white;
     text-align: center;
-   background-image: linear-gradient(to right, #38393c,#393a3d);
+/*   background-image: linear-gradient(to right, #38393c,#393a3d); */
+      background: #5d81a4;
     padding-bottom: 80px;
     
 }
 .linn h5{
-    background:black;
+    background:#5d81a4;
     padding: 20px 20px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
+
 }
 .linee{
-    border-right: 1px solid grey;
+    border-right: 1px solid white;
 }
 .rem a{
     color: white;
@@ -300,12 +224,14 @@ ul{
 .footer1{
     text-align: center;
     color: white;
-    background:#35363a;
+   /* background:#35363a; */
+   background: #5d81a4;
 
 }
 .footer{
     /* background-image: linear-gradient(to right, #1a4492,#1c4ca3); */
-    background: #35363a;
+    /*background: #35363a; */
+    background: #5d81a4;
     color: white;
     text-align: center;
     border-top: 1px solid grey;
@@ -313,7 +239,8 @@ ul{
 .footerlast{
     margin-top: -16px;
     text-align: center;
-    background:#202120;
+   /* background:#202120; */
+   background: #5d81a4;
  
 }
 .footerlast img{
@@ -361,7 +288,7 @@ ul{
       background:white;
 	 border-radius: 30px;
 	  /* box-shadow:0 0 16px 0 rgb(215 215 215); */
-    box-shadow: 0 0 16px 0 black;
+    box-shadow: 0 0 16px 0 red;
 	  height: 110px;
 	  text-align-last: center;
       }
@@ -469,57 +396,6 @@ ul.dropdown ul li a:hover{
     user-select: none;
 }
   
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: #5d81a4;
- /* background-image: url(https://ksp.gov.in/frontend/opt1/images/center_logo/kar_main_logo.png); */
-  background-size: 150px;
-  width: 100%;
-  height: 500px;
-  background-size: cover;
-
-  color: white;
-  transform: rotateY(180deg);
-}
 
 .title{
   font-size: 14px;
@@ -616,4 +492,217 @@ blink {
     visibility: visible;
   }
 }
-    
+
+
+
+/* new co */
+
+
+/*
+  ==================================
+    CITY ABOUT WRAP START 
+  ==================================
+*/
+.city_about_link,
+.city_about_text,
+.city_about_list,
+.city_about_fig,
+.city_about_wrap{
+  float:left;
+  width:100%;
+}
+.city_health2_text  .section_heading h2{
+  font-weight:600;
+  font-size: 30px;
+
+}
+
+.city_department_wrap .section_heading{
+  margin-left: 15px;
+}
+.section_heading.margin30{
+  margin-bottom:35px;
+}
+.city_about_wrap{
+  padding:50px 0px 190px;
+}
+.city_about_fig{
+  padding:0px 100px 70px 0px;
+  position:relative;
+}
+
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.city_about_text{
+  margin-bottom:45px;
+}
+.city_about_text h6{
+  margin:0px 0px 14px 0px;
+  font-style:italic;
+  line-height:28px;
+}
+.city_about_text p{
+  line-height:28px;
+  margin:0px 0px;
+}
+.city_about_link li{
+  margin-bottom:15px;
+}
+.city_about_link li:last-child{
+  margin-bottom:0px;
+}
+.city_about_link li a{
+  font-size:15px;
+  font-weight:normal;
+}
+.city_about_link li a i{
+  margin-right:25px;
+}
+
+.bordr{
+  border-left: 5px solid brown !important;
+  padding-left: 2px;
+}
+
+/*
+  ==================================
+    CITY ABOUT WRAP END 
+  ==================================
+*/
+
+
+/*
+  ==================================
+    CITY DEPARTMENT WRAP START 
+  ==================================
+*/
+.city_department_wrap{
+  float:left;
+  width:100%;
+}
+.city_department_wrap{
+
+  padding-bottom:50px;
+}
+
+
+.city_department_wrap .section_heading{
+  margin-left: 15px;
+}
+.margin-bottom{
+  margin-bottom:48px !important;
+}
+.bg_white{
+/*  background-color:#fff;
+  padding:103px 35px 65px; */
+  
+  margin:auto;
+  position: relative;
+  margin-top: -90px;
+  box-shadow:0px -1px 8px 1px #e1e1e1;
+}
+.width_control{
+  width: 33.3%;
+  float: left;
+  padding:0px 15px;
+}
+.city_department_fig{
+  padding: 10px 15px;
+  border: 1px solid #d7d7d7;
+  margin: 0px 0px 35px;
+}
+.city_department_fig figure{
+  width:auto;
+}
+.city_department_text{
+  overflow:hidden;
+  padding:8px 0px 13px 20px;
+}
+
+/*
+  ==================================
+    CITY DEPARTMENT WRAP END 
+  ==================================
+*/
+
+
+
+/*
+flip card
+*/
+
+.card{
+  color: white;
+  padding-top: 30px;
+}
+.flip {
+  -webkit-perspective: 800;   
+          perspective: 800;
+        position: relative;
+        text-align: center;
+}
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+          transform: rotatey(-180deg);
+}
+.flip .card {
+    width: 270px;
+    height: 178px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    background-color: #fff;
+   
+}
+.flip .card .face {
+  -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+   z-index: 2;
+}
+.flip .card .front {
+   position: absolute;
+   width: 270px;
+   z-index: 1;
+}
+.flip .card .front img{
+  width: 270px;
+  height: 100%;
+}
+.flip .card .img {
+   position: relaitve;
+   width: 270px;
+   height: 178px;
+   z-index: 1;
+   border: 2px solid #000;
+}
+.flip .card .back {
+  padding-top: 10%;
+  -webkit-transform: rotatey(-180deg);
+          transform: rotatey(-180deg);
+  position: absolute;
+}
+.inner{
+  margin:0px !important;
+  width: 270px;
+}
